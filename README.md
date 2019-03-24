@@ -42,6 +42,8 @@ the first 10 terms will be:
 #### *Answer:* 20232792560
 [Python code problem 5](https://github.com/DDaaaaann/Project_Euler/blob/master/python/exc5.py)
 
+___
+
 ### Problem 6: *Sum square difference*
 > The sum of the squares of the first ten natural numbers is,
 > 1^2 + 2^2 + ... + 10^2 = 385
