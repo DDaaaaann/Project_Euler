@@ -1,9 +1,16 @@
+Below you'll find *my* solutions and answers to the problems found in Project Euler
+
 ### Problem 1: *Multiples of 3 and 5*
 > If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these
 multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 1000.
+<details><summary> <i>click to see answer</i> </summary>
+<p>
 
 #### *Answer:* 233168
+</p>
+</details>
+
 [Python code problem 1](https://github.com/DDaaaaann/Project_Euler/blob/master/python/exc1.py)
 
 ___
@@ -18,7 +25,13 @@ the first 10 terms will be:
 >By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the
  even-valued terms.
 
+<details><summary> <i>click to see answer</i> </summary>
+<p>
+
 #### *Answer:* 4613732
+</p>
+</details>
+
 [Python code problem 2](https://github.com/DDaaaaann/Project_Euler/blob/master/python/exc2.py)
 
 ___
@@ -28,7 +41,13 @@ ___
 >The prime factors of 13195 are 5, 7, 13 and 29.
 >What is the largest prime factor of the number 600851475143 ?
 
+<details><summary> <i>click to see answer</i> </summary>
+<p>
+
 #### *Answer:* 6857
+</p>
+</details>
+
 [Python code problem 3](https://github.com/DDaaaaann/Project_Euler/blob/master/python/exc3.py)
 
 ___
@@ -40,7 +59,13 @@ ___
 >
 >Find the largest palindrome made from the product of two 3-digit numbers.
 
+<details><summary> <i>click to see answer</i> </summary>
+<p>
+
 #### *Answer:* 906609
+</p>
+</details>
+
 [Python code problem 4](https://github.com/DDaaaaann/Project_Euler/blob/master/python/exc4.py)
 
 ___
@@ -51,7 +76,13 @@ ___
 >
 >What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
+<details><summary> <i>click to see answer</i> </summary>
+<p>
+
 #### *Answer:* 20232792560
+</p>
+</details>
+
 [Python code problem 5](https://github.com/DDaaaaann/Project_Euler/blob/master/python/exc5.py)
 
 ___
@@ -69,7 +100,13 @@ ___
 >
 > Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
+<details><summary> <i>click to see answer</i> </summary>
+<p>
+
 #### *Answer:* 25164150
+</p>
+</details>
+
 [Python code problem 6](https://github.com/DDaaaaann/Project_Euler/blob/master/python/exc6.py)
 
 
