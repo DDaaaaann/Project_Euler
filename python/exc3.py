@@ -4,19 +4,19 @@
 #
 # What is the largest prime factor of the number 600851475143 ?
 
-number = 1000
+number = 600851475143
 currentPrime = 2
+largestPrime = 0
 
 
-def findlargestprimefactor(num):
+def find_largest_prime_factor(num):
     i = 2
     while i * i <= num:
         if num % i:
             i += 1
         else:
-            print i
             num /= i
-    print num
+    return num
 
 
-findlargestprimefactor(number)
+print find_largest_prime_factor(number)
