@@ -5,7 +5,7 @@
 #
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
-_range = range(999, 100, -1)
+_range = range(100, 1000)
 largestPalindrome = 0
 
 
@@ -23,7 +23,7 @@ def is_palindrome(num):
 
 
 for i in _range:
-    for j in _range:
+    for j in range(i, 1000):
         checkPalindrome = i*j
         if is_palindrome(checkPalindrome):
             if checkPalindrome > largestPalindrome:
