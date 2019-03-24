@@ -5,7 +5,7 @@
 #
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
-rangeA = range(999, 100, -1)
+_range = range(999, 100, -1)
 largestPalindrome = 0
 
 
@@ -18,14 +18,14 @@ def reverse(num):
     return reversednum
 
 
-def ispalindrome(num):
+def is_palindrome(num):
     return num == reverse(num)
 
 
-for i in rangeA:
-    for j in rangeA:
+for i in _range:
+    for j in _range:
         checkPalindrome = i*j
-        if ispalindrome(checkPalindrome):
+        if is_palindrome(checkPalindrome):
             if checkPalindrome > largestPalindrome:
                 largestPalindrome = checkPalindrome
 
