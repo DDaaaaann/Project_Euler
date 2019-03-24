@@ -49,7 +49,7 @@ the first 10 terms will be:
 >
 > Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
-####*Answer:* 25164150
+#### *Answer:* 25164150
 
 
 
