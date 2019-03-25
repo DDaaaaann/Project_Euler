@@ -5,6 +5,7 @@
 # What is the 10001st prime number?
 
 currentPrime = 2
+primeList = []
 
 
 def find_next_prime(num):
@@ -15,13 +16,14 @@ def find_next_prime(num):
 
 
 def is_prime(num):
-    for i in range(2, num):
+    for i in primeList:
         if not num % i:
             return False
     return True
 
 
 for j in range(2, 10002):
+    primeList.append(currentPrime)
     currentPrime = find_next_prime(currentPrime)
 
 print(currentPrime)
